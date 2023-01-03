@@ -23,7 +23,7 @@ class NewsCubit extends Cubit<NewsState> {
         query: {
           'country': 'us',
           'category': 'business',
-          'apiKey': '205d0714f6db4775a8b118cf341cd9d9',
+          'apiKey': 'Insert Your API Key',
         },
       ).then((value) {
         business = value.data['articles'];
@@ -46,7 +46,7 @@ class NewsCubit extends Cubit<NewsState> {
         query: {
           'country': 'us',
           'category': 'sports',
-          'apiKey': '205d0714f6db4775a8b118cf341cd9d9',
+          'apiKey': 'Insert Your API Key',
         },
       ).then((value) {
         sports = value.data['articles'];
@@ -69,7 +69,7 @@ class NewsCubit extends Cubit<NewsState> {
         query: {
           'country': 'us',
           'category': 'science',
-          'apiKey': '205d0714f6db4775a8b118cf341cd9d9',
+          'apiKey': 'Insert Your API Key',
         },
       ).then((value) {
         science = value.data['articles'];
@@ -119,7 +119,7 @@ class NewsCubit extends Cubit<NewsState> {
         query: {
           'q': value,
           'sortBy': 'popularity',
-          'apiKey': '205d0714f6db4775a8b118cf341cd9d9',
+          'apiKey': 'Insert Your API Key',
         },
       ).then((value) {
         search = value.data['articles'];
